@@ -61,7 +61,7 @@ def statisticFun(case:cases) -> None:
         gap=max(0,sum_need-sum_good)
         sum_gap+=gap
     avg_gap=sum_gap/fre
-    print(avg_gap)
+    print(f'烧牌数期望:{avg_gap}')
     return
 
 
